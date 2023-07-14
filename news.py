@@ -36,7 +36,7 @@ def headLine():
     query_params = {
 	"source": "bbc-news",
 	"sortBy": "top",
-	"apiKey": "d0991d9186da4c259f29b078bd9d7550"
+	"apiKey": "Your api key"
 	}
     url = " https://newsapi.org/v1/articles"
     response = requests.get(url,params=query_params)
@@ -51,7 +51,7 @@ def headLine():
         print("............................End................................")
 
 def sports():   
-    url = "https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=d0991d9186da4c259f29b078bd9d7550"
+    url = "https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=Your api keu"
     response = requests.get(url)
     data = json.loads(response.text)
     news = data
@@ -64,7 +64,7 @@ def sports():
         print("............................End................................")
 
 def business():   
-    url = "https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=d0991d9186da4c259f29b078bd9d7550"
+    url = "https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=Your api key "
     response = requests.get(url)
     data = json.loads(response.text)
     news = data
@@ -77,7 +77,7 @@ def business():
         print("............................End................................")
 
 def Entertainment():   
-    url = "https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=d0991d9186da4c259f29b078bd9d7550"
+    url = "https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=Your api key "
     response = requests.get(url)
     data = json.loads(response.text)
     news = data
@@ -90,7 +90,7 @@ def Entertainment():
         print("............................End................................")
 
 def Health():   
-    url = "https://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=d0991d9186da4c259f29b078bd9d7550"
+    url = "https://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=Your api key "
     response = requests.get(url)
     data = json.loads(response.text)
     news = data
@@ -103,7 +103,7 @@ def Health():
         print("............................End................................")
 
 def science():   
-    url = "https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=d0991d9186da4c259f29b078bd9d7550"
+    url = "https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=Your api key "
     response = requests.get(url)
     data = json.loads(response.text)
     news = data
@@ -116,7 +116,7 @@ def science():
         print("............................End................................")
 
 def Technology():   
-    url = "https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=d0991d9186da4c259f29b078bd9d7550"
+    url = "https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=Your api key "
     response = requests.get(url)
     data = json.loads(response.text)
     news = data
