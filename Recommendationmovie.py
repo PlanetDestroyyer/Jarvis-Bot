@@ -40,7 +40,7 @@ def movie():
     movieName.replace("movie","")
     querystring = {f"q":{movieName}}
     headers = {
-    	"X-RapidAPI-Key": "132d97dc1emsh74614bee7028c43p1ce01bjsna30851e6698e",
+    	"X-RapidAPI-Key": "Your api key ",
     	"X-RapidAPI-Host": "imdb8.p.rapidapi.com"
     }
 
