@@ -53,7 +53,7 @@ def listen():
     return text
 
 def data(name): 
-    df = pd.read_csv('C:\\Users\\lenovo\\OneDrive\\Desktop\\New folder\\doc.csv')
+    df = pd.read_csv("Your CSV file path")
     number = df['Numbers'].tolist()
     names = df['Names'].tolist()
     if name in names:
